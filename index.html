@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- De la h1 pana la h6 sunt folosite pentru a adauga titluri pe dimensiuni, descrescator!-->    
+    <h1>I</h1>
+    <h2>O</h2>
+    <h3>N</h3>
+    <h4>U</h4>
+    <h5>T</h5>
+    
+    
+
+    <!-- Tag-ul <p>(paragraf) este folosit pentru a adauga un text cu mai multe linii. -->
+    <!-- Tag-ul <strong> este folosit pentru formatare a textului, iar textul devine BOLD-->
+        <p> <strong> Lista de fructe! </strong> </p>
+    
+    
+    <!-- Tag-ul <ul>(unordered list), creeaza  o lista fara ordine-->
+    <!-- Tag-ul <li>(list item), este folosit pentru a adauga elemente in lista respectiva-->
+    <ul>
+        <li>Portocale</li>
+        <li>Mere</li>
+        <li>Nuca</li>
+    </ul>
+    
+    <p><strong> Seriale preferate! </strong></p>
+    
+    <!-- Tag-ul <ol>(ordered list), este folosit pentru a crea liste ordonate-->
+    <!-- Atributul <type>, este folosit pentru a defini tipul de numerotare ( numere/ litere)-->
+    <ol type="a">
+        <li>Black List</li>
+        <li>Breaking Bad</li>
+        <li>Black Mirror</li>
+    </ol>
+
+    <!-- Tag-ul <hr>, este folosit pentru a crea o linie orizontala -->
+    <h1>Definitia cafelei</h1>
+    <hr width="50%" align="left">
+    <p>Extend the file with a list containing 4 names. Item 1 and 2 in the list should be underlined and items 3 and 4 should be italicized and bolded</p>
+
+    <!-- Tag-ul, <i> este folosit pentru formatarea textului italic -->
+    <!-- Tag-ul, <u> este folosit pentru formatarea textului subliniat -->
+    
+    <ul>
+        <li><u>Element1</u></li>
+        <li><u>Element2</u></li>
+        <li><i><strong>Element3</strong></i></li>
+        <li><i><strong>Element4</strong></i></li>
+    </ul>
+
+    <!-- atributul title="", ne afiseaza pop-ul cu text atunci cand facem hover(mouse over), peste element-->
+    <!-- Tag-ul <br /> (break), adauga spatii libere intre elemente -->
+    <p title="Nasol rau">PNL</p><br /><br />
+    <p title="Va recomand cu mare drag :)">PSD</p><br /><br />
+    <p title="Azi ploua, nu ?">USR</p><br /><br />
+    <abbr title="Secret de stat major">Text</abbr><br /><br />
+
+    <!--
+        Tag-ul img este folosit pentru a adauga o imagine
+        Poate avea atributele:
+            src - pentru sursa (locatia) imaginii
+            title - pentru a adauga un tooltip cand facem hover peste imagine
+            alt - pentru a afisa un text atunci cand imaginea nu este incarcata
+            width - seteaza latimea imaginii
+            height - seteaza inaltimea imaginii
+            <img src="" title="" width="" height "" alt=""/>
+    -->
+
+    <!-- 
+        Tag-ul <a> este folosit pentru a crea un link 
+        Poate avea atributele:
+            href - pentru a seta link-ul 
+            target - pentru a specifica daca deschidem un tab nou sau ramanem in tab-ul curent
+        * Continutul tag-ului reprezinta elementul pe care facem click
+    -->
+    <img src="images/img1.jpg" title="Image 1" width="200" alt="Error:404"/><br />
+    <img src="images/img2.jpg" title="Image 2" width="200" alt="Error:404"/><br />
+    <img src="images/img3.jpg" title="Image 3" width="200" alt="Error:404"/><br />
+    <img src="images/img4.jpg" title="Image 4" width="200" alt="Error:404"/><br />
+    <a href="https://google.com" target="_blank">
+        <img src="\img5.jpg" title="Image 5" width="200" alt="TEXT OARECARE :) :)"/>
+    </a>
+
+    <!-- 
+        Creare tabel:
+        - Folosim tag-ul <table>
+        - Pentru fiecare linie din tabel folosim un tag <tr>
+        - In interiourul fiecarui tag <tr> adaugam colonele liniei cu ajutorul tag-ului <td>
+    
+        Formatare tabel:
+        - rowspan - face merge la doua randuri
+        - colspan - face merge la doua coloane
+        -->
+
+    <table border="1" width="1000px">
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td rowspan="2">3</td>
+        </tr>
+        
+        <tr>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        
+        <tr>
+            <td colspan="2">6</td>
+            <td>7</td>
+        </tr>
+    </table>
+</body>
+</html>
+
+
+
+
+
